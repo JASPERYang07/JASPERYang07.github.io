@@ -1,10 +1,4 @@
-// import './style.css'
-
-// document.querySelector('#app').innerHTML = `
-//   <h1>Hello Vite!</h1>
-//   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-
-import * as THREE from 'three'
+import * as THREE from './build/three.module.js'
 //引入帧率检测工具
 import Stat from 'three/examples/jsm/libs/stats.module'
 //引入鼠标控制操作
